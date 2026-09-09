@@ -252,7 +252,18 @@ class SuratController extends Controller
     {
         $date = Carbon::parse($dateString);
         $kodeJenis = str_pad((string)$jenisSuratId, 2, '0', STR_PAD_LEFT);
-        $kodePenerbit = $penerbitSuratId === 2 ? 'ASR' : 'ITS';
+        
+        $penerbitCodeMap = [
+            1 => 'KOMH',
+            2 => 'KOMH/TS',
+            3 => 'KOMH/SG',
+            4 => 'KOMH/MK',
+            5 => 'KOMH/SL',
+            6 => 'KOMH/PMB',
+            7 => 'KOMH/ES',
+            8 => 'KOMH/PJL',
+        ];
+        $kodePenerbit = $penerbitCodeMap[$penerbitSuratId] ?? 'KOMH';
         $countBulanIni = 1;
 
         if ($this->isDatabaseAccessible()) {

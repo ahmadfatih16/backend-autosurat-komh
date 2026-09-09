@@ -31,10 +31,16 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
-        // 3. Seed Penerbit Surat (ITS, ASR)
+        // 3. Seed Penerbit Surat (8 Unit Asrama Komplek H)
         $penerbits = [
-            ['nama' => 'Institut Teknologi Sepuluh Nopember', 'kode' => 'ITS'],
-            ['nama' => 'Asrama Mahasiswa', 'kode' => 'ASR'],
+            ['nama' => 'Pengurus Asrama Komplek H', 'kode' => 'KOMH'],
+            ['nama' => 'Panitia Temu Roso', 'kode' => 'KOMH/TS'],
+            ['nama' => 'Panitia Stadium Generale', 'kode' => 'KOMH/SG'],
+            ['nama' => 'Panitia Makrab', 'kode' => 'KOMH/MK'],
+            ['nama' => 'Panitia Sunan League', 'kode' => 'KOMH/SL'],
+            ['nama' => 'Panitia Penerimaan Mahasantri Baru', 'kode' => 'KOMH/PMB'],
+            ['nama' => 'Panitia Komplek H E-Sport', 'kode' => 'KOMH/ES'],
+            ['nama' => 'Panitia Pemilur / Penanggung Jawab Lurah Sementara', 'kode' => 'KOMH/PJL'],
         ];
         foreach ($penerbits as $penerbit) {
             PenerbitSurat::updateOrCreate(['kode' => $penerbit['kode']], $penerbit);

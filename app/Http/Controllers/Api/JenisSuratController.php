@@ -92,8 +92,14 @@ class JenisSuratController extends Controller
         }
 
         $defaultPenerbits = [
-            ['id' => 1, 'kode' => 'ITS', 'nama' => 'Institut Teknologi Sepuluh Nopember'],
-            ['id' => 2, 'kode' => 'ASR', 'nama' => 'Asrama Mahasiswa'],
+            ['id' => 1, 'kode' => 'KOMH', 'nama' => 'Pengurus Asrama Komplek H'],
+            ['id' => 2, 'kode' => 'KOMH/TS', 'nama' => 'Panitia Temu Roso'],
+            ['id' => 3, 'kode' => 'KOMH/SG', 'nama' => 'Panitia Stadium Generale'],
+            ['id' => 4, 'kode' => 'KOMH/MK', 'nama' => 'Panitia Makrab'],
+            ['id' => 5, 'kode' => 'KOMH/SL', 'nama' => 'Panitia Sunan League'],
+            ['id' => 6, 'kode' => 'KOMH/PMB', 'nama' => 'Panitia Penerimaan Mahasantri Baru'],
+            ['id' => 7, 'kode' => 'KOMH/ES', 'nama' => 'Panitia Komplek H E-Sport'],
+            ['id' => 8, 'kode' => 'KOMH/PJL', 'nama' => 'Panitia Pemilur / Penanggung Jawab Lurah Sementara'],
         ];
 
         return response()->json([
