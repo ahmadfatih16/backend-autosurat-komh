@@ -35,7 +35,7 @@ class DatabaseSeeder extends Seeder
         $penerbits = [
             ['nama' => 'Pengurus Asrama Komplek H', 'kode' => 'KOMH'],
             ['nama' => 'Panitia Temu Roso', 'kode' => 'KOMH/TS'],
-            ['nama' => 'Panitia Stadium Generale', 'kode' => 'KOMH/SG'],
+            ['nama' => 'Panitia Studium Generale', 'kode' => 'KOMH/SG'],
             ['nama' => 'Panitia Makrab', 'kode' => 'KOMH/MK'],
             ['nama' => 'Panitia Sunan League', 'kode' => 'KOMH/SL'],
             ['nama' => 'Panitia Penerimaan Mahasantri Baru', 'kode' => 'KOMH/PMB'],

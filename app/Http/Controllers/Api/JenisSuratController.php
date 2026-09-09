@@ -94,7 +94,7 @@ class JenisSuratController extends Controller
         $defaultPenerbits = [
             ['id' => 1, 'kode' => 'KOMH', 'nama' => 'Pengurus Asrama Komplek H'],
             ['id' => 2, 'kode' => 'KOMH/TS', 'nama' => 'Panitia Temu Roso'],
-            ['id' => 3, 'kode' => 'KOMH/SG', 'nama' => 'Panitia Stadium Generale'],
+            ['id' => 3, 'kode' => 'KOMH/SG', 'nama' => 'Panitia Studium Generale'],
             ['id' => 4, 'kode' => 'KOMH/MK', 'nama' => 'Panitia Makrab'],
             ['id' => 5, 'kode' => 'KOMH/SL', 'nama' => 'Panitia Sunan League'],
             ['id' => 6, 'kode' => 'KOMH/PMB', 'nama' => 'Panitia Penerimaan Mahasantri Baru'],
