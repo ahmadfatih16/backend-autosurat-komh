@@ -49,23 +49,24 @@ class JenisSuratController extends Controller
             }
         }
 
-        // Fallback 15 format surat baku
+        // Fallback 16 format surat baku
         $defaultJenis = [
-            ['id' => 1, 'kode' => '01', 'nama' => 'Surat keputusan (SK)', 'slug' => 'surat-keputusan-sk'],
-            ['id' => 2, 'kode' => '02', 'nama' => 'Surat undangan (SU)', 'slug' => 'surat-undangan-su'],
-            ['id' => 3, 'kode' => '03', 'nama' => 'Surat permohonan (SPm)', 'slug' => 'surat-permohonan-spm'],
-            ['id' => 4, 'kode' => '04', 'nama' => 'Surat pemberitahuan (SPb)', 'slug' => 'surat-pemberitahuan-spb'],
-            ['id' => 5, 'kode' => '05', 'nama' => 'Surat peminjaman (SPp)', 'slug' => 'surat-peminjaman-spp'],
-            ['id' => 6, 'kode' => '06', 'nama' => 'Surat pernyataan (SPn)', 'slug' => 'surat-pernyataan-spn'],
-            ['id' => 7, 'kode' => '07', 'nama' => 'Surat mandat (SM)', 'slug' => 'surat-mandat-sm'],
-            ['id' => 8, 'kode' => '08', 'nama' => 'Surat tugas (ST)', 'slug' => 'surat-tugas-st'],
-            ['id' => 9, 'kode' => '09', 'nama' => 'Surat keterangan (SKet)', 'slug' => 'surat-keterangan-sket'],
-            ['id' => 10, 'kode' => '10', 'nama' => 'Surat rekomendasi (SR)', 'slug' => 'surat-rekomendasi-sr'],
-            ['id' => 11, 'kode' => '11', 'nama' => 'Surat balasan (SB)', 'slug' => 'surat-balasan-sb'],
-            ['id' => 12, 'kode' => '12', 'nama' => 'Surat perintah perjalanan dinas (SPPD)', 'slug' => 'surat-perintah-perjalanan-dinas-sppd'],
+            ['id' => 1, 'kode' => '01', 'nama' => 'Surat Keputusan (SK)', 'slug' => 'surat-keputusan-sk'],
+            ['id' => 2, 'kode' => '02', 'nama' => 'Surat Undangan (SU)', 'slug' => 'surat-undangan-su'],
+            ['id' => 3, 'kode' => '03', 'nama' => 'Surat Permohonan (SPm)', 'slug' => 'surat-permohonan-spm'],
+            ['id' => 4, 'kode' => '04', 'nama' => 'Surat Pemberitahuan (SPb)', 'slug' => 'surat-pemberitahuan-spb'],
+            ['id' => 5, 'kode' => '05', 'nama' => 'Surat Peminjaman (SPj)', 'slug' => 'surat-peminjaman-spj'],
+            ['id' => 6, 'kode' => '06', 'nama' => 'Surat Pernyataan (SP)', 'slug' => 'surat-pernyataan-sp'],
+            ['id' => 7, 'kode' => '07', 'nama' => 'Surat Mandat (SM)', 'slug' => 'surat-mandat-sm'],
+            ['id' => 8, 'kode' => '08', 'nama' => 'Surat Tugas (ST)', 'slug' => 'surat-tugas-st'],
+            ['id' => 9, 'kode' => '09', 'nama' => 'Surat Keterangan (SKet)', 'slug' => 'surat-keterangan-sket'],
+            ['id' => 10, 'kode' => '10', 'nama' => 'Surat Rekomendasi (SR)', 'slug' => 'surat-rekomendasi-sr'],
+            ['id' => 11, 'kode' => '11', 'nama' => 'Surat Balasan (SB)', 'slug' => 'surat-balasan-sb'],
+            ['id' => 12, 'kode' => '12', 'nama' => 'Surat Perintah Perjalanan Dinas (SPPD)', 'slug' => 'surat-perintah-perjalanan-dinas-sppd'],
             ['id' => 13, 'kode' => '13', 'nama' => 'Sertifikat (SRT)', 'slug' => 'sertifikat-srt'],
-            ['id' => 14, 'kode' => '14', 'nama' => 'Perjanjian kerja (PK)', 'slug' => 'perjanjian-kerja-pk'],
-            ['id' => 15, 'kode' => '15', 'nama' => 'Surat pengantar (SPeng)', 'slug' => 'surat-pengantar-speng'],
+            ['id' => 14, 'kode' => '14', 'nama' => 'Perjanjian Kerja (PK)', 'slug' => 'perjanjian-kerja-pk'],
+            ['id' => 15, 'kode' => '15', 'nama' => 'Surat Pengantar (SPeng)', 'slug' => 'surat-pengantar-speng'],
+            ['id' => 16, 'kode' => '16', 'nama' => 'Surat Izin (SI)', 'slug' => 'surat-izin-si'],
         ];
 
         return response()->json([

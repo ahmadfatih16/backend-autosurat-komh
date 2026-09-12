@@ -199,7 +199,7 @@ class SuratController extends Controller
                 'stats' => [
                     'total_surat' => 3,
                     'surat_bulan_ini' => 3,
-                    'total_jenis' => 15,
+                    'total_jenis' => 16,
                     'total_penerbit' => 2,
                 ],
                 'terbaru' => [],
@@ -236,7 +236,7 @@ class SuratController extends Controller
                 'stats' => [
                     'total_surat' => 3,
                     'surat_bulan_ini' => 3,
-                    'total_jenis' => 15,
+                    'total_jenis' => 16,
                     'total_penerbit' => 2,
                 ],
                 'terbaru' => [],
